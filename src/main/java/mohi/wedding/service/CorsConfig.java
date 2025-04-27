@@ -15,7 +15,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")  // Allow all paths
-                    .allowedOrigins("https://mohiweddinghu")  // Allow your frontend domain
+                    .allowedOrigins("https://mohiwedding.hu")  // Allow your frontend domain
                     .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Allow common HTTP methods
                     .allowedHeaders("*"); // Allow all headers
             }
